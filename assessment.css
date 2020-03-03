@@ -2,3 +2,52 @@ h1, h2, h3, h4, h5, h6 {
   color: purple;
   font-family: sans-serif;
 }
+
+table {
+  border: solid;
+  text-align: center;
+}
+
+#teamRoster {
+  list-style-type: square;
+}
+
+ul {
+  list-style: square;
+}
+
+a:hover {
+  color: green;
+  text-decoration: none;
+  background-color: black;
+}
+
+blockquote {
+  background-color: DarkOliveGreen;
+  color: DarkKhaki;
+}
+
+#checkbox-grid {
+  list-style: none;
+}
+
+li > img {
+  display: none;
+}
+
+#teamRoster > :first-child {
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+  background-repeat: no-repeat;
+  background-size: 150px, 150px;
+}
+
+#teamRoster >:last-child {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+  background-repeat: no-repeat;
+  background-size: 150px, 150px;
+}
+
+thead {
+  font-weight: bold;
+  color: orange;
+}
